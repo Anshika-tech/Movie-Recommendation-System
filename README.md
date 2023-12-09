@@ -5,14 +5,12 @@
 ![Frontend](https://img.shields.io/badge/Frontend-HTML/CSS/JS-green)
 ![API](https://img.shields.io/badge/API-TMDB-fcba03)
 
-**Updated version of this application can be found at:** https://github.com/kishan0725/The-Movie-Cinema
+
 
 
 Content Based Recommender System recommends movies similar to the movie user likes and analyses the sentiments on the reviews given by the user for that movie.
 
 The details of the movies(title, genre, runtime, rating, poster, etc) are fetched using an API by TMDB, https://www.themoviedb.org/documentation/api, and using the IMDB id of the movie in the API, I did web scraping to get the reviews given by the user in the IMDB site using `beautifulsoup4` and performed sentiment analysis on those reviews.
-
-Link to youtube demo: https://www.youtube.com/watch?v=dhVePtyECFw
 
 ## The Movie Cinema
 
@@ -24,13 +22,6 @@ Don't worry if the movie that you are looking for is not auto-suggested. Just ty
 
 Source Code: https://github.com/kishan0725/The-Movie-Cinema
 
-## Featured in Krish's Live Session on YouTube
-
-[![krish youtube](https://github.com/kishan0725/AJAX-Movie-Recommendation-System-with-Sentiment-Analysis/blob/master/static/krish-naik.PNG)](https://www.youtube.com/watch?v=A_78fGgQMjM)
-
-## How to get the API key?
-
-Create an account in https://www.themoviedb.org/, click on the `API` link from the left hand sidebar in your account settings and fill all the details to apply for API key. If you are asked for the website URL, just give "NA" if you don't have one. You will see the API key in your `API` sidebar once your request is approved.
 
 ## How to run the project?
 
@@ -40,7 +31,6 @@ Create an account in https://www.themoviedb.org/, click on the `API` link from t
 3. Replace YOUR_API_KEY in **both** the places (line no. 15 and 29) of `static/recommend.js` file and hit save.
 4. Open your terminal/command prompt from your project directory and run the file `main.py` by executing the command `python main.py`.
 5. Go to your browser and type `http://127.0.0.1:5000/` in the address bar.
-6. Hurray! That's it.
 
 ## Architecture
 
@@ -58,7 +48,6 @@ Create an account in https://www.themoviedb.org/, click on the `API` link from t
   ![image](https://user-images.githubusercontent.com/36665975/70401457-a7530680-1a55-11ea-9158-97d4e8515ca4.png)
 
   
-More about Cosine Similarity : [Understanding the Math behind Cosine Similarity](https://www.machinelearningplus.com/nlp/cosine-similarity/)
 
 ### Sources of the datasets 
 
